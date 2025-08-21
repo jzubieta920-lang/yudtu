@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda Digital de USUARIO INCOGNITO </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+    h1 { text-align: center; color: #222; }
+    .categoria { margin-bottom: 20px; }
+    .boton-categoria { background: #007bff; color: white; padding: 10px; border: none; width: 100%; text-align: left; font-size: 18px; cursor: pointer; border-radius: 5px; }
+    .productos { display: none; margin-top: 10px; }
+    .producto { background: #fff; padding: 15px; margin: 10px 0; border-radius: 8px; box-shadow: 0 0 5px #ccc; }
+    input, button { padding: 10px; margin: 5px 0; width: 100%; border: 1px solid #ccc; border-radius: 5px; }
+    .pagar { background: #28a745; color: white; border: none; cursor: pointer; }
+    .pagar:hover { background: #218838; }
+    .exito { color: green; font-weight: bold; margin-top: 10px; display: none; }
+  </style>
+</head>
+<script>
+  function toggle(id) {
+    const section = document.getElementById(id);
+    section.style.display = section.style.display === "none" ? "block" : "none";
+  }
+
+  function confirmarPago(boton) {
+    const mensaje = boton.nextElementSibling;
+    mensaje.style.display = "block";
+  }
+</script>
+</body>
+</html><body>
+
+<h1>Tienda Digital de  USUARIO DESCONOCIDO </h1><!-- Categoría: Streaming -->
+<div class="categoria">
+  <button class="boton-categoria" onclick="toggle('streaming')">🎬 Streaming</button>
+  <div id="streaming" class="productos">
+    <div class="producto"><strong>Netflix Premium - $80 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+    <div class="producto"><strong>Disney+ - $75 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+    <div class="producto"><strong>HBO Max - $70 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+    <div class="producto"><strong>Spotify Familiar - $65 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+    <div class="producto"><strong>Crunchyroll - $60 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+    <div class="producto"><strong>Amazon Prime Video - $70 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+    <div class="producto"><strong>Paramount+ - $65 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+       <div class="producto"><strong>Apple TV+ - $55 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+     </div>
+</div><!-- Categoría: Juegos -->
+<div class="categoria">
+  <button class="boton-categoria" onclick="toggle('juegos')">🎮 Juegos</button>
+  <div id="juegos" class="productos">
+
+    <div class="producto"><strong>Diamantes Free Fire (110)- $19 MXN </strong>
+      <input type="text" placeholder="ID de jugador">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+ <div class="producto"><strong>Diamantes Free Fire (341)- $60 MXN </strong>
+      <input type="text" placeholder="ID de jugador">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+ <div class="producto"><strong>Diamantes Free Fire (572)- $90 MXN </strong>
+      <input type="text" placeholder="ID de jugador">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+ <div class="producto"><strong>Diamantes Free Fire (1166)- $175 MXN </strong>
+      <input type="text" placeholder="ID de jugador">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+ <div class="producto"><strong>Diamantes Free Fire (2398)- $350 MXN </strong>
+      <input type="text" placeholder="ID de jugador">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+ <div class="producto"><strong>Diamantes Free Fire (6160)- $850 MXN </strong>
+      <input type="text" placeholder="ID de jugador">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+      <div class="producto"><strong>Robux Roblox (350) - $70 MXN</strong>
+      <input type="text" placeholder="Usuario Roblox">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+   
+  </div>
+</div><!-- Categoría: Productividad -->
+<div class="categoria">
+  <button class="boton-categoria" onclick="toggle('productividad')">📈 Productividad</button>
+  <div id="productividad" class="productos">
+
+    <div class="producto"><strong>Canva Pro - $40 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>ChatGPT Plus - $50 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+        <div class="producto"><strong>Microsoft 365 - $55 MXN</strong>
+      <input type="text" placeholder="Correo para la cuenta">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+  </div>
+</div><!-- Categoría: Redes Sociales -->
+<div class="categoria">
+  <button class="boton-categoria" onclick="toggle('redes')">📱 Redes Sociales</button>
+  <div id="redes" class="productos">
+
+    <div class="producto"><strong>Seguidores Instagram (1000)- $80 MXN</strong>
+      <input type="text" placeholder="@usuario Instagram">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>Likes TikTok (1000)- $60 MXN</strong>
+      <input type="text" placeholder="@usuario TikTok">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>Vistas YouTube (1000)- $100 MXN</strong>
+      <input type="text" placeholder="Link del video">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>Seguidores Facebook - $30 MXN</strong>
+      <input type="text" placeholder="Link del perfil o página">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+  
+  </div>
+</div><!-- Categoría: Documentos Oficiales -->
+<div class="categoria">
+  <button class="boton-categoria" onclick="toggle('documentos')">🧾 Documentos Oficiales</button>
+  <div id="documentos" class="productos">
+
+      
+    <div class="producto"><strong>Acta de nacimiento - $35 MXN</strong>
+      <input type="text" placeholder="Nombre completo">
+      <input type="text" placeholder="Estado de nacimiento">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <!-- Documentos extendidos -->
+    <div class="producto"><strong>Acta de matrimonio original - $60 MXN</strong>
+      <input type="text" placeholder="Nombre completo de ambos cónyuges">
+      <input type="text" placeholder="Fecha de matrimonio">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>Acta de defunción original - $55 MXN</strong>
+      <input type="text" placeholder="Nombre del fallecido">
+      <input type="text" placeholder="Fecha de defunción">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>Acta de divorcio original - $65 MXN</strong>
+      <input type="text" placeholder="Nombre completo de ambos ex-cónyuges">
+      <input type="text" placeholder="Fecha de divorcio">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>Constancia original + IDCIF - $70 MXN</strong>
+      <input type="text" placeholder="Nombre completo">
+      <input type="text" placeholder="CURP">
+      <input type="text" placeholder="IDCIF">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>Constancia original con solo CURP - $50 MXN</strong>
+      <input type="text" placeholder="CURP">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+    <div class="producto"><strong>Constancia clon con solo CURP - $35 MXN</strong>
+      <input type="text" placeholder="CURP">
+      <button class="pagar" onclick="confirmarPago(this)">Pagar</button>
+      <div class="exito">PAGO REALIZADO CON ÉXITO</div>
+    </div>
+
+  </div>
+</div>
+
